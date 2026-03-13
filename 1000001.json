@@ -4,21 +4,21 @@
     "customer_id": 1000001
   },
   "endpoints": {
-    "/auth/login": true,
-    "/api/orders/status-history": true,
-    "/api/orders/print-label": true,
-    "/api/orders/view": true,
-    "/api/orders/list": true,
-    "/api/orders/create": true,
-    "/api/orders/update": true,
-    "/api/orders/update2": true,
-    "/api/orders/delete": true,
-    "/api/orders/documents": true,
-    "/api/orders/download-document": true,
-    "/api/orders/catalog/create-order-fields": true,
-    "/api/orders/tracktrace": true,
-    "/api/dms/download": true,
-    "/proxy": false,
-    "/proxy/upload": false
+    "/auth/login":                              { "enabled": true,  "daily_limit": 100  },
+    "/api/orders/status-history":               { "enabled": true,  "daily_limit": 500  },
+    "/api/orders/print-label":                  { "enabled": true,  "daily_limit": 200  },
+    "/api/orders/view":                         { "enabled": true,  "daily_limit": 1000 },
+    "/api/orders/list":                         { "enabled": true,  "daily_limit": 500  },
+    "/api/orders/create":                       { "enabled": true,  "daily_limit": 20   },
+    "/api/orders/update":                       { "enabled": true,  "daily_limit": 100  },
+    "/api/orders/update2":                      { "enabled": true,  "daily_limit": 100  },
+    "/api/orders/delete":                       { "enabled": true,  "daily_limit": 50   },
+    "/api/orders/documents":                    { "enabled": true,  "daily_limit": 500  },
+    "/api/orders/download-document":            { "enabled": true,  "daily_limit": 500  },
+    "/api/orders/catalog/create-order-fields":  { "enabled": true,  "daily_limit": 100  },
+    "/api/orders/tracktrace":                   { "enabled": true,  "daily_limit": 500  },
+    "/api/dms/download":                        { "enabled": true,  "daily_limit": 500  },
+    "/proxy":                                   { "enabled": false, "daily_limit": 0    },
+    "/proxy/upload":                            { "enabled": false, "daily_limit": 0    }
   }
 }
