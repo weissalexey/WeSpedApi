@@ -1,0 +1,24 @@
+{
+  "site": {
+    "base_url": "https://service.carstensen.DE",
+    "customer_id": 1000002
+  },
+  "endpoints": {
+    "/auth/login": true,
+    "/api/orders/status-history": true,
+    "/api/orders/print-label": true,
+    "/api/orders/view": true,
+    "/api/orders/list": true,
+    "/api/orders/create": true,
+    "/api/orders/update": true,
+    "/api/orders/update2": true,
+    "/api/orders/delete": true,
+    "/api/orders/documents": true,
+    "/api/orders/download-document": true,
+    "/api/orders/catalog/create-order-fields": true,
+    "/api/orders/tracktrace": true,
+    "/api/dms/download": true,
+    "/proxy": false,
+    "/proxy/upload": false
+  }
+}
